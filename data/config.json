@@ -1,0 +1,43 @@
+{
+     "RFE":{
+         "n_samples":10000,
+         "RF_n_estimators":10,
+         "n_features":2,
+         "n_columns":50
+     },
+     "CHI":{
+         "n_features":100,
+         "p_value":0.05
+     },
+    "bo": {"init_points":1,"n_iter":5},
+    "bo_xgb": {
+      "max_depth": [3, 10],
+      "learning_rate": [0.01, 0.3],
+      "n_estimators": [50, 500],
+      "min_child_weight": [1, 10],
+      "gamma": [0, 1],
+      "subsample": [0.5, 1],
+      "colsample_bytree": [0.5, 1]
+      },
+    "bo_rf": {
+      "n_estimators": [10, 50], 
+      "max_depth": [5, 50],
+      "min_samples_split": [2, 20],
+      "min_samples_leaf": [1, 20],
+      "max_features": [0.5, 1]
+      },
+    "SVR": {"n_samples":10000},
+    "bo_svr": {
+      "C": [1, 100], 
+      "epsilon": [0.01, 0.5],
+      "gamma": [0.001, 0.1]
+      },
+    "bo_meta": {
+      "units1": [32, 128],
+      "units2": [16, 64],
+      "dropout1": [0.1, 0.5],
+      "dropout2": [0.1, 0.5],
+      "learning_rate": [1e-4, 1e-2],
+      "batch_size": [8, 128]
+      }
+}
