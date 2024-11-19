@@ -38,6 +38,13 @@ Required fields:
 
 ## Installation
 
+1. Navigate to the root directory
+2. Unzip data(s) and model(s):
+   ```bash
+   cd data/ && unzip snp_dld_2024_transactions.zip
+   cd data/ && unzip snp_dld_2024_rents.zip
+   cd models/ && unzip rf_model.zip
+   ```
 ### Python Setup
 
 1. Navigate to the root directory
