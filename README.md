@@ -129,6 +129,6 @@ python main.py --mode test --config config.json
 # Using defaults
 docker run <IMAGE_NAME> --mode test
 
-# With custom config (Not supported to pass config file yet, behaves as defualts)
+# With custom config (Not supported to pass config file yet, behaves as defaults)
 docker run <IMAGE_NAME> --mode test --config config.json
 ```
