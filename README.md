@@ -1,3 +1,5 @@
+To start the case study from scratch as I did, you will start with the following materials [Case Study - Dubai Properties Valuation.zip](https://github.com/danielinux7/Case-Study-Dubai-Properties-Valuation/blob/main/docs/Case%20Study%20-%20Dubai%20Properties%20Valuation.zip), [Case Study - Dubai Properties Valuation.docx](https://github.com/danielinux7/Case-Study-Dubai-Properties-Valuation/blob/main/docs/Case%20Study%20-%20Dubai%20Properties%20Valuation.docx)
+
 # House Price Prediction ML Pipeline
 
 Intelligent Property Valuation Systems (IPVS) represent cutting-edge technological solutions designed to calculate real estate property market values through advanced computational techniques. These intelligent platforms harness sophisticated machine learning algorithms and expansive property information repositories to generate automated property value assessments. The fundamental objective of an IPVS is to deliver rapid, impartial, and economically efficient property worth evaluations across various temporal contexts.
